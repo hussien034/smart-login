@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>login</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/main2.css">
+    </head>
+    <body>
+        <div class="login">
+            <h1>Smart Login System</h1>
+
+            <div class="login-info">
+            <input id="name" placeholder="Enter your name" class="sign-btn is-invalid"> 
+        </div>
+        <div class="login-info">
+            <input  id="email" placeholder="Enter your email" class="sign-btn is-invalid">
+            </div>
+            <div class="alert-danger d-none" id="alertEmail">your email should include @ and start with uppercase letter</div>
+            <div class="login-info">
+                <input id="password" placeholder="Enter your password" class="sign-btn">
+                </div>
+                <div id="alert" class="text-center"></div>
+            <button id="signup" disabled>Sign Up</button>
+            <p>You have an account?  <span> <a href="index.html">Signin</a></span></p>
+        </div>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
